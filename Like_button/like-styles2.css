@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heading */
+header {
+    display: flex;
+    width: 70%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 5%;
+}
+
+/* body */
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 700px;
+    margin: 0 15%;
+    flex-direction: column;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* left and right columns */
+
+.column {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+/* left column */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 0% 3%;
+    margin-right: 5%;
+    height: 240px;
+
+}
+.left img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* right column */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block {
+    width: 500px;
+    height: auto;
+    border: 3px solid black;
+    margin: 5%;
+    padding: 2%;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: gold;
+    border: 3px solid black;
+    width: 65px;
+}
+.user button:hover {
+    background-color: rgb(193, 164, 1);
+}
+.user p {
+    margin-left: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20%;
+}

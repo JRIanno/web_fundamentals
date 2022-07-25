@@ -1,0 +1,29 @@
+.block {
+    width: 500px;
+    height: auto;
+    border: 3px solid black;
+    margin: 5%;
+    padding: 2%;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: gold;
+    border: 3px solid black;
+    width: 65px;
+}
+.user button:hover {
+    background-color: rgb(193, 164, 1);
+}
+.user p {
+    margin-left: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20%;
+}
